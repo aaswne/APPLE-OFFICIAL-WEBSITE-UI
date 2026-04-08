@@ -303,4 +303,8 @@
     padding: 8px 14px;
     font-size: 13px;
   }
+
+  .heading{
+    font-size: 2rem;
+  }
 }
