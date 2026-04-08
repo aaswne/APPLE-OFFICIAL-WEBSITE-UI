@@ -1,0 +1,42 @@
+.legal-section {
+  background: #f5f5f7;
+  padding-left:15%;
+  padding-right: 15%;
+  padding-top: 4%;
+}
+
+.legal-container {
+  max-width: 1180px;
+  margin: 0 auto;
+  color: #6e6e73;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  font-weight: 400;
+}
+
+.legal-list {
+  padding-left: 18px;
+}
+
+.legal-list li {
+  margin-bottom: 16px;
+}
+
+.legal-container p {
+  margin: 0 0 18px;
+}
+
+.legal-container a {
+  color: #424245;
+  text-decoration: underline;
+}
+
+@media (max-width:786) {
+    .legal-section {
+  background: #f5f5f7;
+  padding-left:5%;
+  padding-right: 5%;
+  padding-top: 4%;
+}
+    
+}

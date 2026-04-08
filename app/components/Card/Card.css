@@ -1,0 +1,195 @@
+.card {
+  text-align: center;
+  overflow: hidden;
+  min-width: 50%;
+}
+
+.smallCard {
+  text-align: center;
+  overflow: hidden;
+  min-width: 50%;
+  height: 80vh;
+}
+
+.smallCardsRow {
+  display: flex;
+  gap: 12px;
+  height: 40%;
+}
+
+.heroContent {
+  min-height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 40px;
+}
+
+.card h1 {
+  margin: 0;
+  font-size: 50px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.smallCard h1 {
+  margin: 0;
+  line-height: 1.05;
+  font-size: 2.6rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.card p,
+.smallCard p {
+  margin: 14px 0 0;
+  font-size: 24px;
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: 0;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.learn,
+.shop {
+  min-width: 140px;
+  height: 44px;
+  padding: 0 22px;
+  border-radius: 999px;
+  font-size: 17px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.learn {
+  background-color: rgb(0, 113, 227);
+  color: white;
+  border: none;
+}
+
+.shop {
+  background-color: transparent;
+  color: rgb(0, 113, 227);
+  border: 1px solid rgb(0, 113, 227);
+}
+
+.imageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: -360px;
+}
+
+.imageContainer img {
+  display: block;
+  width: 590px;
+  max-width: none;
+  height: auto;
+}
+
+/* tablet */
+@media (max-width: 1068px) {
+  .heroContent {
+    min-height: 570px;
+  }
+
+  .card h1,
+  .smallCard h1 {
+    font-size: 64px;
+  }
+
+  .card p,
+  .smallCard p {
+    font-size: 32px;
+  }
+
+  .imageContainer img {
+    width: 980px;
+  }
+}
+
+/* mobile */
+@media (max-width: 734px) {
+  .smallCardsRow {
+    flex-direction: column;
+  }
+
+  .smallCard {
+    width: 100%;
+    height: 10vh;
+  }
+
+  .card,
+  .smallCard {
+    text-align: center;
+    background-color: rgb(245, 245, 247);
+    min-height: max-content;
+    overflow: hidden;
+    padding-top: 15px;
+    margin-top: 5%;
+  }
+
+  .heroContent {
+    min-height: auto;
+    padding: 38px 16px 0;
+  }
+
+  .card h1,
+  .smallCard h1 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 1.05;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+  }
+
+  .card p,
+  .smallCard p {
+    margin: 14px 0 0;
+    font-size: 18px;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+
+  .buttons {
+    gap: 12px;
+    margin-top: 18px;
+  }
+
+  .learn,
+  .shop {
+    min-width: auto;
+    height: 40px;
+    padding: 0 18px;
+    font-size: 17px;
+  }
+
+  .imageContainer {
+    margin-top: 24px;
+  }
+
+  .imageContainer img {
+    display: block;
+    width: 290px;
+    max-width: none;
+    height: auto;
+  }
+
+  .smallCardsRow {
+    display: flex;
+    gap: 1px;
+    padding: 0;
+  }
+}
