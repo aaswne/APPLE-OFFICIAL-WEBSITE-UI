@@ -49,7 +49,6 @@
   line-height: 1.1;
   font-weight: 400;
   letter-spacing: 0;
-
 }
 
 .buttons {
@@ -126,8 +125,10 @@
   }
 
   .smallCard {
-    width: 100%;
-    height: 10vh;
+    text-align: center;
+    overflow: hidden;
+    min-width: 50%;
+    height: 60vh;
   }
 
   .card,
