@@ -4,7 +4,8 @@ import { FiSearch } from "react-icons/fi";
 import { FiShoppingBag } from "react-icons/fi";
 import { RxHamburgerMenu } from "react-icons/rx";
 
-function NavBar({show,setShow}) {
+
+function NavBar({show,setShow,menuClick}) {
   const navItems = [
     "Store",
     "Mac",
@@ -19,9 +20,7 @@ function NavBar({show,setShow}) {
     "Support",
   ];
 
-const menuClick = () =>{
-  setShow(!show)
-}  
+ 
 
   return (
     <div className="navBar">
